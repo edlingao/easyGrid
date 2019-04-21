@@ -1,0 +1,85 @@
+
+.main-header{
+
+    background: linear-gradient(to bottom right, #FF9300,#AE1212);
+    
+    height: 100vh;
+    z-index: 1;
+    position: relative;
+}
+
+.logo{
+    
+    font-family: 'Oswald', sans-serif;
+    font-size: 16rem;
+    text-align: center;
+    color: white;
+    width: 400px;
+    height: 400px;
+    background: red;
+    border-radius: 50%;
+    position: relative;
+    
+}
+ .logo::after{
+    
+    position: absolute;
+    content: "";
+    height: 400px;
+    width: 400px;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    border-radius: 20px;
+    box-shadow:rgb(112, 15, 15) 0px 0px 0 0;
+    background: rgb(112, 15, 15) 
+    
+} 
+
+.nav-bar{
+    position: fixed;
+    top: 0;
+    background: rgb(54, 5, 5);
+
+    width: 100%;
+
+    z-index: 10;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+.nav-bar .option a{
+    
+    text-decoration: none;
+    padding: 20px;
+    background: #AE1212;
+    color: white;
+    border-radius: 10px;;
+}
+.nav-bar .option{
+    margin-right: 20px;
+}
+.nav-bar .log{
+    padding: 0;
+    background:none;
+    align-self: flex-start;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.little-logo{
+    font-size: 3rem;
+    height: 75px;
+    width: 75px;
+    margin: 10px;
+}
+.little-logo::after{
+    height: 75px;
+    width: 75px;
+    border-radius: 5px;
+    
+}
+.little-logo::after:hover{
+    box-shadow: 5px 10px #888888;
+}

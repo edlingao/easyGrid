@@ -1,0 +1,21 @@
+*{
+    font-size: 2rem;
+    text-align: center;
+}
+.main,.aside,.header,.footer{
+    background: skyblue;
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+.cont div{
+    background: skyblue;
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+.main, .aside{
+    height: 70vh;
+}
+.header, .footer{
+    height: 20vh;
+}
+
